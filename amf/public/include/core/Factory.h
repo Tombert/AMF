@@ -122,8 +122,8 @@ extern "C"
     #define AMF_DLL_NAMEA   "libamfrt.framework/libamfrt"
 #elif defined(__linux__)
     #if defined(__x86_64__) || defined(__aarch64__)
-        #define AMF_DLL_NAME    L"libamfrt64.so.1"
-        #define AMF_DLL_NAMEA   "libamfrt64.so.1"
+        #define AMF_DLL_NAME    L"libamfrt64.so.0"
+        #define AMF_DLL_NAMEA   "libamfrt64.so.0"
     #else
         #define AMF_DLL_NAME    L"libamfrt32.so.1"
         #define AMF_DLL_NAMEA   "libamfrt32.so.1"
